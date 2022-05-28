@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="onClickHandler">
+
+        <button data-val="1" data-secomd="2">1</button>
+        <button data-val="2" data-secomd="2">2</button>
+        <button data-val="3" data-secomd="2">3</button>
+        <button data-val="4" data-secomd="2">4</button>
+        <button data-val="5" data-secomd="2">5</button>
+        <button data-val="6" data-secomd="2">6</button>
+        <button data-val="7" data-secomd="2">7</button>
+
+    </div>
+
+    <div id="colorMixer">
+        <div class="mixedColor">mixed</div>
+        <section class="buttonContainer">
+            <header>primary color</header>
+            <div id="primaryColors" class="colorButtons">
+            </div>
+        </section>
+        <section class="buttonContainer">
+            <header>secondary color</header>
+            <div id="secondaryColors" class="colorButtons">
+            </div></section>
+    </div>
+    <script src="./chroma.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
