@@ -2,7 +2,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-#colorMixer {
+.colorMixer {
     width: 900px;
     margin: 0 auto;
     display: flex;
@@ -11,14 +11,22 @@ html, body {
 .mixedColor {
     width: 500px;
     height: 600px;
+    background: #ccc;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 
 .buttonContainer {
     width: 200px;
     height: 600px;
     text-align: center;
-    
 }
+
+.buttonContainer header {
+    padding: 10px;
+    font-weight: 800;
+}
+
 .colorButtons {
     display: flex;
     flex-direction: column;
@@ -29,7 +37,7 @@ html, body {
 
 .colorButton {
     background: #fff;
-    border: 2px #000 solid;border-radius: 10px;
+    border: 3px #000 solid;border-radius: 10px;
     width: 50%;
     margin: 0 auto;
     padding: 20px 10px;
@@ -42,5 +50,5 @@ html, body {
 }
 
 .colorButton.active {
-    border-width: 4px;
+    border-color: red;
 }

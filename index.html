@@ -11,28 +11,16 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="onClickHandler">
-
-        <button data-val="1" data-secomd="2">1</button>
-        <button data-val="2" data-secomd="2">2</button>
-        <button data-val="3" data-secomd="2">3</button>
-        <button data-val="4" data-secomd="2">4</button>
-        <button data-val="5" data-secomd="2">5</button>
-        <button data-val="6" data-secomd="2">6</button>
-        <button data-val="7" data-secomd="2">7</button>
-
-    </div>
-
-    <div id="colorMixer">
-        <div class="mixedColor">mixed</div>
+    <div id="colorMixer" class="colorMixer">
+        <div class="mixedColor"></div>
         <section class="buttonContainer">
-            <header>primary color</header>
-            <div id="primaryColors" class="colorButtons">
+            <header>Primary Color</header>
+            <div class="colorButtons primaryColors">
             </div>
         </section>
         <section class="buttonContainer">
-            <header>secondary color</header>
-            <div id="secondaryColors" class="colorButtons">
+            <header>Secondary Color</header>
+            <div class="colorButtons secondaryColors">
             </div></section>
     </div>
     <script src="./chroma.min.js"></script>
